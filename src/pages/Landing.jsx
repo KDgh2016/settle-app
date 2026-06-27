@@ -6,15 +6,15 @@ import GuillochePattern from '../components/GuillochePattern'
 const FEATURES = [
   {
     title: 'Built for your specific route',
-    body: "Spouse visa, Skilled Worker, Global Talent, EU Settlement Scheme, long residence — each has its own absence rules. Settle applies the right one to you, not a generic guess.",
+    body: "Every visa route has its own absence rules. Whether you're applying through a Spouse visa, Skilled Worker, Global Talent, EU Settlement Scheme, or long residence, Settle applies the rules that match your application.",
   },
   {
     title: 'Your data, genuinely private',
-    body: 'Row-level security in the database means nobody — not other users, not us — can see your trips unless you choose to share them. Enforced by Postgres itself.',
+    body: 'Your trips are protected by row-level security in the database, so only you can access them unless you choose to share them. This protection is enforced by Postgres itself.',
   },
   {
     title: 'On every device',
-    body: 'Sign in once. Your log follows you to your phone, laptop, or anywhere else you need it — no files to email yourself.',
+    body: 'Log in once and access your travel records from any device, anytime. Everything stays securely in sync.',
   },
 ]
 

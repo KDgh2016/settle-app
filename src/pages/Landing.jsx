@@ -30,12 +30,12 @@ export default function Landing() {
           </p>
           <h1 className="font-display font-semibold text-5xl sm:text-6xl text-[#F4F0E6] mb-5">Settle</h1>
           <p className="text-[#C7CCDB] text-lg leading-relaxed max-w-lg mx-auto mb-9">
-            A private log of every day you spend outside the UK — measured against the absence rule that actually
+            A private log of every day you spend outside the UK, measured against the absence rule that actually
             applies to your visa, not a generic guess.
           </p>
           <div className="flex items-center justify-center gap-3 flex-wrap">
             <Link to="/app" className="bg-gold text-navy-deep font-semibold text-sm rounded-md px-6 py-3 hover:bg-gold-light transition">
-              Get started — it's free
+              Get started, it's free
             </Link>
             <Link to="/login" className="text-gold-light underline text-sm">
               Already have an account? Sign in

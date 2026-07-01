@@ -39,15 +39,14 @@ export default function Landing() {
     <div className="min-h-screen bg-paper font-sans">
 
       {/* ── Hero ── */}
-      <section className="relative min-h-[92vh] flex flex-col justify-center overflow-hidden">
-        {/* Background image */}
+      <section className="relative min-h-[92vh] flex flex-col justify-center overflow-hidden bg-navy-deep">
+        {/* Background image at low opacity so text is always readable */}
         <div className="absolute inset-0">
           <img
             src="https://images.unsplash.com/photo-1513635269975-59663e0ac1ad?w=1600&q=85"
             alt="London skyline"
-            className="w-full h-full object-cover object-center"
+            className="w-full h-full object-cover object-center opacity-25"
           />
-          <div className="absolute inset-0 bg-gradient-to-b from-navy/95 via-navy/88 to-navy-deep/98" />
         </div>
 
         {/* Guilloche top/bottom borders */}
@@ -181,27 +180,26 @@ export default function Landing() {
       </section>
 
       {/* ── Final CTA ── */}
-      <section className="relative py-24 px-5 overflow-hidden">
+      <section className="relative py-24 px-5 overflow-hidden bg-navy-deep">
         <div className="absolute inset-0">
           <img
             src="https://images.unsplash.com/photo-1529655683826-aba9b3e77383?w=1400&q=80"
             alt="Family settled in UK"
-            className="w-full h-full object-cover object-center"
+            className="w-full h-full object-cover object-center opacity-20"
           />
-          <div className="absolute inset-0 bg-navy/92" />
         </div>
         <GuillochePattern className="absolute top-0 left-0 w-full h-4 text-gold-light z-10" opacity={0.3} />
 
         <div className="relative z-10 max-w-xl mx-auto text-center">
-          <h2 className="font-display font-semibold text-4xl text-[#F4F0E6] mb-4">
+          <h2 className="font-display font-semibold text-4xl text-white mb-4">
             Start tracking today
           </h2>
-          <p className="text-[#D1D5E0] text-sm mb-8 leading-relaxed">
+          <p className="text-[#D1D5E0] text-base mb-8 leading-relaxed">
             Free to use. No subscription. Your data stays yours — always.
           </p>
           <Link
             to="/app"
-            className="bg-gold text-navy-deep font-semibold text-sm rounded-md px-8 py-3.5 hover:bg-gold-light transition inline-block shadow-lg shadow-black/30"
+            className="bg-gold text-navy-deep font-semibold text-sm rounded-md px-8 py-3.5 hover:bg-gold-light transition inline-block shadow-lg"
           >
             Get started — it's free
           </Link>

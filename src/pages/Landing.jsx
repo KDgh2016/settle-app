@@ -47,7 +47,7 @@ export default function Landing() {
             alt="London skyline"
             className="w-full h-full object-cover object-center"
           />
-          <div className="absolute inset-0 bg-gradient-to-b from-navy/90 via-navy/80 to-navy-deep/95" />
+          <div className="absolute inset-0 bg-gradient-to-b from-navy/95 via-navy/88 to-navy-deep/98" />
         </div>
 
         {/* Guilloche top/bottom borders */}
@@ -188,7 +188,7 @@ export default function Landing() {
             alt="Family settled in UK"
             className="w-full h-full object-cover object-center"
           />
-          <div className="absolute inset-0 bg-navy/88" />
+          <div className="absolute inset-0 bg-navy/92" />
         </div>
         <GuillochePattern className="absolute top-0 left-0 w-full h-4 text-gold-light z-10" opacity={0.3} />
 
@@ -196,7 +196,7 @@ export default function Landing() {
           <h2 className="font-display font-semibold text-4xl text-[#F4F0E6] mb-4">
             Start tracking today
           </h2>
-          <p className="text-[#B9BFD0] text-sm mb-8 leading-relaxed">
+          <p className="text-[#D1D5E0] text-sm mb-8 leading-relaxed">
             Free to use. No subscription. Your data stays yours — always.
           </p>
           <Link
@@ -205,7 +205,7 @@ export default function Landing() {
           >
             Get started — it's free
           </Link>
-          <p className="text-xs text-[#6B7280] mt-8 leading-relaxed max-w-md mx-auto">
+          <p className="text-xs text-[#9CA3AF] mt-8 leading-relaxed max-w-md mx-auto">
             Settle isn't legal advice and doesn't replace an immigration adviser's review of your case.
             It's a record-keeping tool, built on the published Home Office continuous residence rules.
           </p>
